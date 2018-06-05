@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="MinesweeperSPL"/>
+    <feature automatic="selected" name="About"/>
+    <feature automatic="selected" name="Difficulty"/>
+    <feature automatic="unselected" name="Beginner"/>
+    <feature manual="selected" name="Intermediate"/>
+    <feature automatic="unselected" name="Advanced"/>
+    <feature automatic="unselected" name="Custom"/>
+    <feature manual="selected" name="PlayerName"/>
+    <feature automatic="selected" name="NumberOfPlayers"/>
+    <feature automatic="unselected" name="One"/>
+    <feature manual="selected" name="Two"/>
+    <feature automatic="selected" name="ImageSet"/>
+    <feature manual="selected" name="Classic"/>
+    <feature automatic="unselected" name="Alternative"/>
+</configuration>

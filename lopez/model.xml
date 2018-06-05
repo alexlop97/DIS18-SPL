@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and mandatory="true" name="MinesweeperSPL">
+            <feature mandatory="true" name="About"/>
+            <alt abstract="true" mandatory="true" name="Difficulty">
+                <feature name="Beginner"/>
+                <feature name="Intermediate"/>
+                <feature name="Advanced"/>
+                <feature abstract="true" name="Custom"/>
+            </alt>
+            <feature name="PlayerName"/>
+            <and name="Statistics">
+                <feature name="HighScores"/>
+            </and>
+            <alt abstract="true" mandatory="true" name="NumberOfPlayers">
+                <feature abstract="true" name="One"/>
+                <and name="Two">
+                    <feature abstract="true" name="Computer"/>
+                </and>
+            </alt>
+            <alt abstract="true" mandatory="true" name="ImageSet">
+                <feature name="Classic"/>
+                <feature name="Alternative"/>
+            </alt>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
